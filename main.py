@@ -5,9 +5,7 @@ import os
 from dotenv import load_dotenv
 from discord_slash import SlashCommand
 import requests
-import warnings
 load_dotenv()
-warnings.filterwarnings('ignore')
 
 token = os.environ.get('BOT_TOKEN')
 
